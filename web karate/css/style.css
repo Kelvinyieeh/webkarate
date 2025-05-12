@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+
+.content{
+    padding-bottom: 150px;
+    min-height:100%
+}
+
+.topbar a{
+    color:black;
+    cursor:pointer;
+    text-decoration: none;
+   
+}
+
+.allicons{
+    background-color: aliceblue;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    cursor: pointer;
+    display:flex; 
+}
+
+.topbar{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing:  1px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+main{
+    padding-bottom: 120px;
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+   
+}
+
+
+
+body{
+    background-color:black;
+    min-height: 100vh;
+    background-image:url(../images/photo_12_2025-04-01_04-00-12.jpg);
+    display: flex;
+    flex-direction: column;
+    background-attachment: scroll;
+    background-size: cover;
+    justify-content: center;
+}
+
+.paragraph{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+    font-weight: 400;
+    text-transform: lowercase;
+    text-align: left;
+    font: bold;
+}
+    
+   
+nav{
+    background:rgb(255, 0, 0);
+    padding:1rem;
+}
+
+nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    justify-content: space-around;  
+    display:flex; 
+}
+
+
+nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    padding:0.8rem 1rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing:  1px; ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a:hover{
+    color: black;
+    transition: all ease-in-out 0.5s;
+}
+
+    
+
+
+h1{
+    font-size:2rem;
+    margin-bottom: 2rem;
+    color:whitesmoke;
+}
+
+form input{
+    width: 50%;
+    top:0;
+    left:0;
+    outline:none;
+    font-size: 16px;
+    color: rgb(245, 239, 239);
+    padding:12px 0;
+    border :none;
+    margin-top: 0%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(245, 34, 34);
+    background: transparent;
+    box-shadow: 0 15px 25px black;
+    transition: 0.5s;
+}
+
+
+
+input:focus{
+    border:1px solid rgb(248, 248, 248)
+}
+
+.terms{
+    margin-top: 1rem;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+.terms input{
+    height:1em;
+    width:1em;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+.terms label{
+    font-size:0.7em;
+}
+
+.terms a{
+    color:rgb(84, 200, 247);
+    text-decoration: none;
+}
+
+.member{
+    font-size:1rem;
+    margin-top:1.4rem;
+    color:rgb(10, 171, 245);
+}
+
+.member a{
+    color:aliceblue;
+    text-decoration:none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px;
+}
+
+.logo{
+    width:50px;
+    height:45px;
+    margin-left: 10px;
+    
+    border-radius: 100%;
+    border:none solid black;
+    
+}
+
+.images{
+    display:flex;
+     justify-content:center;
+     flex-wrap: wrap;
+     margin-top:200px 0 0 200px;
+     width:70%;
+     height:450px;
+     gap:10px;
+     float: top;
+}
+
+.images img{
+    margin-top: 50px;
+    width:25%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 25px;
+    border:solid white;
+    transition: 0.5s;
+    
+}
+
+.images img:hover{
+    width:45%;
+}
+
+.container{
+    display:flex;
+}
+
+footer{
+    text-align: center;
+    padding:20px 10px;
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:200px;
+    clear:both;
+    z-index:10;
+    background-color: rgb(243, 240, 240);
+}
+
+
+ 
+ .footericonscontainer{
+     width:100%;
+     padding:70px 30px 20px;
+ }
+ 
+ .icons{
+    display:flex;
+    justify-content: center;
+ 
+ }
+ 
+ .icons a{
+     text-decoration: none;
+     padding: 10px;
+     
+     margin:10px;
+     border-radius: 50%;
+ }
+ 
+ .icons a i{
+     font-size: 2em;
+     
+ }
+ 
+ .icons a:hover{
+     background-color: black;
+     transition:0.5s;
+ }
+ .icons a:hover i{
+    transition:0.5s;
+ }
+ 
+ .fa-facebook{
+     color: rgb(24, 119, 242);
+ }
+ 
+ .fa-square-x-twitter{
+     color:black;
+    
+ }
+ 
+ .fa-square-instagram{
+     color:rgb(212, 81, 81)
+ }
+ 
+ .fa-square-youtube{
+      color:red;
+ }
+ 
+ .fa-square-whatsapp{
+     color:rgb(37,211,102)
+ }
